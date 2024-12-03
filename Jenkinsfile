@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout'){
            steps {
                // git credentialsId: 'f87a34a8-0e09-45e7-b9cf-6dc68feac670', 
-               sh 'url: "https://github.com/sheshdhar3/cicd-end-to-end.git", branch: 'main''
+               sh 'url: https://github.com/sheshdhar3/cicd-end-to-end.git, branch: 'main''
            }
         }
 
@@ -40,7 +40,7 @@ pipeline {
         stage('Checkout K8S manifest SCM'){
             steps {
                 // git credentialsId: 'f87a34a8-0e09-45e7-b9cf-6dc68feac670', 
-                sh 'url: "https://github.com/sheshdhar3/cicd-end-to-end.git", branch: 'main''
+                sh 'url: https://github.com/sheshdhar3/cicd-end-to-end.git, branch: 'main''
             }
         }
         
