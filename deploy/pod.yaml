@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: todo-app
-    image: sheshdhar3/node-app-gitlab2
+    image: sheshdhar3/node-app-gitlab2:lts
     ports:
     - containerPort: 8000
