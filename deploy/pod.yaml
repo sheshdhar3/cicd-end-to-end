@@ -7,4 +7,4 @@ spec:
   - name: todo-app
     image: sheshdhar3/node-app-gitlab2:lts
     ports:
-    - containerPort: 8000
+    - containerPort: 8020
