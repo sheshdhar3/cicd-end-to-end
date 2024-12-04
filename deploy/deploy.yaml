@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: todo
-        image: sheshdhar3/node-app-gitlab2
+        image: sheshdhar3/node-app-gitlab2:lts
         ports:
         - protocol: TCP
           containerPort: 8000
