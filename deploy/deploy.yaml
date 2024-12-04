@@ -18,4 +18,7 @@ spec:
       - name: todo
         image: abhishekf5/todo-app:v1
         ports:
-        - containerPort: 8000
+        - protocol: TCP
+          port: 80
+          targetPort: 8000
+          nodePort: 31006
